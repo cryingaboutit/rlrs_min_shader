@@ -2,6 +2,8 @@
 
 uniform sampler2D in_texture;
 uniform vec2 in_resolution;
+uniform float in_x;
+uniform float in_y;
 
 void main() {
     vec2 normalized_pos = gl_FragCoord.xy / in_resolution.xy;
